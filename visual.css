@@ -81,6 +81,7 @@ p {
   width: 80vw;
   margin: 0 auto 16px auto;
   line-height: 1.325em;
+  position: relative;
 }
 
 p:nth-child(odd) {
@@ -92,10 +93,39 @@ p:nth-child(even) {
   text-align: right;
   margin-right: -1vw;
 }
+p span {
+  font-family: monospace;
+}
+a {
+  color: magenta;
+}
+p a {
+  font-size: 1.25em;
+  text-decoration: none;
+  position: absolute;
+  margin-top: -30px;
+  margin-left: -10px;
+  padding: 15px;
+}
 
+ol {
+  color: magenta;
+}
+
+ol li {
+  line-height: 1.25em;
+  margin-bottom: 12px;
+  font-size: 1.5em;
+}
 small {
   line-height: 1.35em;
   font-size: 1.125em;
   display: block;
   margin-top: 40px;
+}
+
+img {
+  display: inline-block;
+  width: 60%;
+  margin: 0 auto 22px auto;
 }
