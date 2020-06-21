@@ -1,0 +1,99 @@
+@font-face {
+    font-family: 'infini';
+    src:    url('./fonts/infini-regular.eot');
+    src:    url('./fonts/infini-regular.eot?#iefix') format('embedded-opentype'),
+            url('./fonts/infini-regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'infini-italic';
+    src:    url('./fonts/infini-italic.eot');
+    src:    url('./fonts/infini-italic.eot?#iefix') format('embedded-opentype'),
+            url('./fonts/infini-italic.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'infini-picto';
+    src:    url('./fonts/infini-picto.eot');
+    src:    url('./fonts/infini-picto.eot?#iefix') format('embedded-opentype'),
+            url('./fonts/infini-picto.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'infini-bold';
+    src:    url('./fonts/infini-bold.eot');
+    src:    url('./fonts/infini-bold.eot?#iefix') format('embedded-opentype'),
+            url('./fonts/infini-bold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'chaumont';
+    src:    url('./fonts/chaumont.eot');
+    src:    url('./fonts/chaumont.eot?#iefix') format('embedded-opentype'),
+            url('./fonts/chaumont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+html, body {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: monospace;
+  color: #90512C;
+  background: #27391E;
+  padding: 25px;
+}
+
+h1, h2, h3, h4, h5 {
+  font-family: 'chaumont';
+  margin: 0;
+  word-spacing: 20px;
+}
+h1 {
+  font-size: 3.5em;
+}
+h2 {
+  font-size: 2.5em;
+  text-align: center;
+  margin-top: 60px;
+  margin-bottom: 12px;
+}
+p {
+  font-family: 'infini';
+  padding: 10px;
+  font-size: 1.475em;
+  max-width: 1200px;
+  line-height: 1.325em;
+  margin: 0;
+}
+
+p:nth-child(odd) {
+  text-align: left;
+}
+
+p:nth-child(even) {
+  text-align: right;
+}
+
+small {
+  line-height: 1.35em;
+  font-size: 1.125em;
+  display: block;
+  margin-top: 40px;
+}
