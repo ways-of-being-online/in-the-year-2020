@@ -57,7 +57,7 @@ body {
   font-family: monospace;
   color: #90512C;
   background: #27391E;
-  padding: 25px;
+  padding: 45px;
 }
 
 h1, h2, h3, h4, h5 {
@@ -71,24 +71,26 @@ h1 {
 h2 {
   font-size: 2.5em;
   text-align: center;
-  margin-top: 60px;
+  margin-top: 20px;
   margin-bottom: 12px;
 }
 p {
   font-family: 'infini';
   padding: 10px;
   font-size: 1.475em;
-  max-width: 1200px;
+  width: 80vw;
+  margin: 0 auto 16px auto;
   line-height: 1.325em;
-  margin: 0;
 }
 
 p:nth-child(odd) {
   text-align: left;
+  margin-left: -2vw;
 }
 
 p:nth-child(even) {
   text-align: right;
+  margin-right: -1vw;
 }
 
 small {
